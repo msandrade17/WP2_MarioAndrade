@@ -11,6 +11,7 @@ html{
     height: 500px;
     flex-wrap: wrap;
 }
+
 div{
     display: block;
 }
@@ -214,6 +215,7 @@ aside img:hover{
 .mail{
     color: #e09f3e;
 }
+
 .Productos button{
     background-color: #d66219;
     color: rgb(73, 47, 7);
@@ -272,22 +274,45 @@ h2 span{
     font-family: 'Lobster', cursive;
     width: 100%;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
+    .Encabezado{
+        width: 80%;
+        align-content: center;
+        margin: 1% auto;
+        font-size: 2rem;
+    }
+    #principal{
+        width: 90%;
+        margin: 1% auto;
+    }
+    .descripcion{
+        width: 100%;
+        height: auto;
+    }
     article{
         width: 100%;
+        width: 80%;
+        text-align: center;
+        margin: 1% auto;
+        font-size: 2rem;
     }
     aside{
         width: 100%;
-    }
-    .descripcion{
-        height: 100%;
+        width: 80%;
+        text-align: center;
+        margin: 1% auto;
+        font-size: 2rem;
     }
     .Productos{
         height: 100%;
+        width: 100%;
+        margin: 1% auto;
     }
     .desarrollo{
         width: 100%;
+        margin: 1% auto;
     }
+
     .final{
         width: 100%;
     }
@@ -309,3 +334,4 @@ h2 span{
         align-content: center;
     }
 }
+
