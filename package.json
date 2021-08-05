@@ -1,0 +1,16 @@
+{
+  "name": "examenp2_andrade_mario",
+  "version": "1.0.0",
+  "main": "servidor.js",
+  "scripts": {
+    "start":"node servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "description": ""
+}

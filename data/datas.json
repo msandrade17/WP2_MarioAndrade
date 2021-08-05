@@ -1,0 +1,20 @@
+[
+    {
+        "url" : "https://www.cerveza-artesanal.co/wp-content/uploads/2019/09/cerveza-brown-ale-cafe-1200x1044.jpg",
+        "nombre":"Cerveza Ale",
+        "costo":"3.50"
+    },
+
+    {
+        "url" : "https://cdn.homebrewersassociation.org/wp-content/uploads/2016/04/kolshSLIDE.jpg",
+        "nombre":"Cerveza Kolsch",
+        "costo":"4.50"
+    },
+
+    {
+        "url" : "https://i.blogs.es/f10b34/5-porter-social/840_560.jpg",
+        "nombre":"Cerveza Porter",
+        "costo":"4.70"
+    }
+
+]

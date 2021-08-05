@@ -1,0 +1,311 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Imágenes/backgroundPrincipal.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+}
+div{
+    display: block;
+}
+.Intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size:150%;
+    margin: 0;
+    
+}
+.Encabezado{
+    padding: 350px ;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color:#d08c60;
+    font-size: 25px;
+
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+ button{
+    background-color:  #c4621c;
+    color: #432818;
+    border: 2px double;
+    padding: 1em 1em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button:hover{
+    border-color: #d9ae94;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 0 -0.2em #ffcb69;
+    transform: translatey(-0.1em);
+    background-color: #c4621c65;
+}
+.contenido{
+    width: 100%;
+    max-height: 100%;
+}
+.descripcion{
+    background-color: #e09f3e;
+    max-height: 100%;
+    text-align: center;
+    padding: 40px;
+    height: 400px;
+    max-width:100%;
+}
+
+article{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    color: #432818;
+    /* display: absolute; */
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+article h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #d66219;
+
+}
+
+article h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: medium;
+}
+
+#textoinicial{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 300px;
+}
+aside{
+    width:50%;
+    display:absolute;
+    float:left;
+    /* height:100%; */
+    padding:40px 20px;
+    margin-right:  10px  #ffff44; 
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+aside  img{
+    width:80%;
+    border: 5px solid rgb(235, 75, 12);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 0.5s;
+}
+
+aside img:hover{
+    opacity:70%;
+    transform:scale(1.05);
+}
+
+.descripcion button{
+    background-color: #d66219;
+    color: rgb(73, 47, 7);
+    /* border: 2px double; */
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.descripcion button:hover{
+    border-color: rgb(73, 47, 7);
+    color: white;
+    cursor: pointer;
+    background-color: #1f0f05c2 ;
+}
+
+.degradado{
+    height: 5px;
+    width: 100%;
+    background: rgb(255, 255, 0);
+    background:   linear-gradient(90deg, rgb(250, 250, 0) 20%, rgb(235, 180, 0) 35%, rgb(235, 75, 12) 100%);
+
+}
+.Productos{
+
+  padding: 1em;
+  overflow: hidden;
+  height: 450px;
+  background-color: white;
+  max-height: 100%;
+  text-align: center;
+  padding: 40px;
+  height: 450px;
+
+}
+.desarrollo{
+    padding: 20px;
+    margin: 30px;
+    float: left;
+    text-align: justify;
+    max-width: 200px;
+    min-width: 100px;
+}
+.Productos h1{
+    color:#530b06;
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Productos h2{
+    color:#311e0f;
+    font-size: large;
+    width: auto;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    
+}
+.Productos img{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    border: #311e0f;
+    border-style: dashed;
+}
+.Productos img:hover{
+    /* opacity:70%; */
+    transform:scale(1.1);
+    background-color: rgba(0, 0, 0, 0.329);
+    border: #c4621c;
+}
+
+.Productos p{
+    width: auto;
+}
+.desarrollo p{
+    text-align: justify, center;
+    color: rgb(20, 11, 6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.mail{
+    color: #e09f3e;
+}
+.Productos button{
+    background-color: #d66219;
+    color: rgb(73, 47, 7);
+    /* border: 2px double; */
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+}
+.Productos button:hover{
+    border-color: rgb(73, 47, 7);
+    color: white;
+    cursor: pointer;
+    background-color: #1f0f05dc ;
+}
+
+.Contacto{
+    padding: 10px;
+    overflow: hidden;
+    height: 450px;
+    background-color: #432818;
+    max-height: 400px;
+    max-width: 100%;
+}
+.Informacion{
+    margin-left: 40px;
+}
+.Informacion p{
+    text-align: justify;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e09f3e;
+}
+h2 span{
+    padding: 10px;
+    color: white;
+    size: 1em;
+}
+
+.Informacion h2{
+    color: white;
+    padding: 20px;
+}
+.PiePagina{
+    height: 50px;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+    background: rgb(255, 255, 0);
+    background:   linear-gradient(90deg, rgb(221, 142, 96) 20%, rgb(168, 84, 51) 100%);
+}
+.final p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    width: 100%;
+}
+@media screen and (max-width: 800px){
+    article{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .descripcion{
+        height: 100%;
+    }
+    .Productos{
+        height: 100%;
+    }
+    .desarrollo{
+        width: 100%;
+    }
+    .final{
+        width: 100%;
+    }
+    .Informacion{
+        width: 100%;
+    }
+    .Contacto{
+        width:100%;
+    }
+    .degradado{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .contenido{
+        width: 100%;
+    }
+    header{
+        align-content: center;
+    }
+}
